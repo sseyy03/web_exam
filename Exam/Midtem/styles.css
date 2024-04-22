@@ -9,7 +9,23 @@ html, body {
 }
   canvas {
     background-color: rgb(180, 180, 180);
+    border: 2px solid #000;
     width: 600px; /* 캔버스 실제 너비 */
     height: 800px; /* 캔버스 실제 높이 */
     margin: 50px;
   }
+
+  #startButton {
+    padding: 10px 20px;
+    margin-top: 20px; /* 버튼과 캔버스 사이 여백 */
+    background-color: #808080; /* 초기 버튼 색상: 회색 */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* 색상 변화 효과 */
+  }
+  #startButton:hover {
+    background-color: #ff0000; /* 마우스 오버 시 색상: 빨간색 */
+  }
+  #startButton:active {
+    background-color: #000080; /* 마우스 클릭 시 색상: 네이비 */}
